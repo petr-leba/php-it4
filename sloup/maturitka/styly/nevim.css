@@ -1,0 +1,168 @@
+/*
+Hnědá: #A52A2A
+#8f3d3d
+#ad853b
+Khaki: #C3B091
+*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url('../obrazky/background01.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    width: 1280px;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: #C3B091;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.nadpis {
+    margin-left: 25px;
+    margin-top: 50px;
+    float: left;
+}
+
+.zakladni_informace {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.zakladni_informace p {
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.zakladni_informace h2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: #ad853b;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+    width: calc(100% / 7);
+    height: 50px;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+.nav ul li:hover {
+    background-color: #726348;
+    border: solid 1px black;
+    color: white;
+}
+
+.nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.text {
+    height: 150px;
+    background-color: #F5DEB3;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.footer {
+    border-top: solid 5px #ad853b;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #975353;
+}
+
+.footer p {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+/* Všechny podstránky */
+
+#nadpis2 {
+    margin-left: 5%;
+    padding: 25px 0px 10px 0px;
+}
+
+/* SLUŽBY */
+
+.sluzby {
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+}
+
+.sluzby p {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.sluzby form {
+    margin-left: 5%;
+}
+
+.sluzby label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sluzby input {
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.sluzby select {
+    padding: 5px;
+}
+
+/* NABÍDKA */ 
+
+.nabidka {
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+}
+
+.nabidka p {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 25px;
+}

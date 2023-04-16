@@ -1,0 +1,171 @@
+.header-index {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  outline: none;
+  margin: -10px;
+}
+
+.header-img {
+  width: 1500px;
+  height: 300px;
+  filter: brightness(70%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text {
+  width: 500px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #ffffff;
+  position: absolute;
+  transform: translate(0%, 50%);
+  z-index: 2;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #2e2e2e;
+}
+
+nav>ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+}
+
+nav>ul>li>a {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  padding: 15px 10px;
+  margin: 10px 15px;
+}
+
+nav>ul>li>a:hover {
+  background-color: #ff8f74;
+  transition: 300ms ease-in-out;
+  border-radius: 2%;
+  padding: 15px 10px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-left: 150px;
+}
+
+a {
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+p {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.domovska-stranka>ol>li {
+  margin-left: 150px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.formular-kontakt {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.formular-sluzby {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+table tr:hover {
+  background-color: #f2dede;
+}
+
+table td {
+  color: #555;
+}
+
+.odkazy-list {
+  margin: 0 0 1.5em;
+  margin-left: 150px;
+  line-height: 1.8;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+
+.form-container form {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  padding-top: 4px;
+  font-weight: bold;
+}

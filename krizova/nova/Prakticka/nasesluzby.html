@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="obrazky/logo01.png" rel='shortcut icon' type='image/png'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Naše služby</title>
+</head>
+
+<body>
+    <header class="header-index">
+        <div class="header-img" style="background-image:url(obrazky/banner03.jpg);"></div>
+        <div class="header-text"><h1>Odjedete po čtyřech</h1></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Proč nás?</a></li>
+            <li><a href="nasesluzby.html">Naše služby</a></li>
+            <li><a href="cenik.html">Ceník</a></li>
+            <li><a href="reference.html">Reference</a></li>
+            <li><a href="nabidkapujcovny.html">Nabídka půjčovny</a></li>
+            <li><a href="kontakt.html">Kontaktujte nás</a></li>
+            <li><a href="odkazy.html">Užitečné odkazy</a></li>
+        </ul>
+    </nav>
+
+    <main class="sluzby">
+        <h2>Naše služby</h2>
+        <p>Vyberte si z uvedených služeb a do vzkazu vložte podrobnosti. <br>
+            Pokud potřebujete nějakou jinou službu zavolejte nebo napište na e-mail. Ozveme se Vám.
+        </p>
+        <form onsubmit="form()">
+            <table class="formular-kontakt">
+                <tr>
+                    <td>
+                        <label for="jmeno">Jméno: </label>
+                        <input type="text" id="jmeno" name="jmeno" placeholder="Jan">
+                    </td>
+                </tr>
+                <tr>  
+                    <td>
+                        <label for="prijmeni">Příjmení: </label>
+                        <input type="text" id="prijmeni" name="prijmeni" placeholder="Novák">
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <label for="tel">Telefon: </label>
+                        <input type="tel" id="phone" name="phone" placeholder="+420 999 999 999">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" name="email" placeholder="jan.novak@seznam.cz">
+                    </td>
+                </tr>
+            </table>
+            <h3>Druh služby:</h3>
+            <table class="formular-sluzby">
+                <tr>
+                    <td>
+                        <input type="radio" id="geometrie_vozu" name="sluzby" value="Geometrie vozu">
+                        <label for="ceskaposta">Geometrie vozu </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="stk" name="sluzby" value="Příprava a projití STK">
+                        <label for="ppl">Příprava a projití STK</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="analyza" name="sluzby" value="Analýza">
+                        <label for="zasilkovna">Analýza počítače auta </label>
+                    </td>
+                </tr>   
+                <tr>
+                    <td>
+                        <input type="radio" id="emise" name="sluzby" value="Emise">
+                        <label for="zasilkovna">Měření emisí </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="skla" name="sluzby" value="Výměna skel">
+                        <label for="zasilkovna">Výměna skel</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="zima" name="sluzby" value="údržba před zimou">
+                        <label for="zasilkovna">Údržba před zimou</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="pneumatiky" name="sluzby" value="Výměna pneumatik">
+                        <label for="zasilkovna">Výměna pneumatik</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vzkaz">Vzkaz:</label><br>
+                        <textarea id="vzkaz" name="vzkaz" rows="4" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br>
+                <input class="submit" type="submit">
+            </form>
+
+            <script>
+                function form() {
+                  alert("Váš požadavek byl odeslán");
+                }
+            </script>
+    </main>
+</body>

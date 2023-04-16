@@ -1,0 +1,137 @@
+#proc_nas {
+	margin: 10px 50px;
+}
+
+#proc_nas > li {
+	margin-bottom: 25px;
+}
+
+#formular {
+	border-spacing: 50px 10px;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+#formular input {
+	display: block;
+	width: 100%;
+}
+
+#zprava {
+	display: block;
+	width: 100%;
+}
+
+#odeslat {
+	display: block;
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#cenik {
+	margin-left: 30px;
+}
+
+#cenik td {
+	padding: 5px;
+	border: #222222 solid 1px;
+}
+
+#cenik th {
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+.recenze {
+	width: 100%;
+	padding: 10px;
+	border: #222222 1px solid;
+	margin-bottom: 10px;
+}
+
+.recenze_jmeno {
+	float: left;
+	font-weight: bold;
+}
+
+.recenze_cas {
+	float: right;
+	font-weight: bold;
+}
+
+.recenze_text {
+	clear: both;
+	margin: 25px;
+}
+
+#nabidka {
+	margin: 10px auto;
+}
+
+#nabidka th,
+#nabidka td {
+	padding: 5px 5px;
+	border: #222222 1px solid;
+	margin-bottom: 10px;
+}
+
+#cont {
+	list-style-type: none;
+	margin-left: 50px;
+	float: left;
+}
+
+#cont > li {
+	margin-top: 5px;
+}
+
+#cont > li:first-child {
+	margin: 0 0 20px 0;
+}
+
+#map {
+	border: 1px solid #222222;
+	border-radius: 5px;
+	float: right;
+	width: 450px;
+	height: 450px;
+}
+
+#links {
+	margin-left: 30px;
+	border-spacing: 30px 0;
+}
+
+@media (max-width: 650px) {
+	#formular {
+		border-spacing: 0 5px;
+	}
+
+	#cenik {
+		margin: 0;
+		border-spacing: 5px 15px;
+	}
+
+	#cont {
+		margin: 0;
+		float: none;
+	}
+
+	#map {
+		width: 250px;
+		height: 250px;
+		float: unset;
+		display: block;
+		margin: 25px auto;
+	}
+
+	#links {
+		margin: 0;
+		border-spacing: 0 10px;
+	}
+}

@@ -1,0 +1,253 @@
+/*
+Hnědá: #A52A2A
+#8f3d3d
+#ad853b
+Khaki: #C3B091
+*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url('../obrazky/background01.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    width: 1280px;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: #C3B091;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.nadpis {
+    margin-left: 25px;
+    margin-top: 50px;
+    float: left;
+}
+
+.zakladni_informace {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.zakladni_informace p {
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.zakladni_informace h2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: #ad853b;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+    width: calc(100% / 7);
+    height: 50px;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+.nav ul li:hover {
+    background-color: #726348;
+    border: solid 1px black;
+    color: white;
+}
+
+.nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.text {
+    height: 150px;
+    background-color: #F5DEB3;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.footer {
+    border-top: solid 5px #ad853b;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #975353;
+}
+
+.footer p {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+/* Všechny podstránky */
+
+#nadpis2 {
+    margin-left: 5%;
+    padding: 25px 0px 10px 0px;
+}
+
+/* CENÍK */
+
+.cenik {
+    background-color: #F5DEB3;
+    height: 700px;
+}
+
+.cenik p {
+    font-size: 20px;
+    margin-left: 5%;
+    padding: 25px 0px 25px 0px;
+}
+
+.cenik .table {
+    border-collapse: collapse;
+    width: 65%;
+    margin-left: 5%;
+}
+
+.cenik td, th {
+    font-size: 18px;
+    border: 3px solid #C3B091;
+    text-align: left;
+    padding: 10px;
+}
+
+.cenik th {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #C3B091;
+}
+
+
+/* REFERENCE */
+
+.reference {
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+}
+
+.recenze {
+    width: 65%;
+    border: #C3B091 solid 2px;
+    border-radius: 25px 5px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#jmeno_reference {
+    float: left;
+    font-weight: bold;
+}
+
+#datum_reference {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+#reference_recenze {
+    padding-top: 10px;
+}
+
+
+/* KONTAKT */
+
+.kontakt {
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+}
+
+.kontakt p {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.kontakt iframe {
+    float: right;
+    margin-right: 35px;
+}
+
+/* PROČ NÁS */
+
+.proc {
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+}
+
+.prvni_polovina {
+    float: left;
+    width: 35%;
+    height: 480px;
+    border: #C3B091 solid 2px;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.druha_polovina {
+    float: right;
+    width: 35%;
+    height: 480px;
+    border: #C3B091 solid 2px;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.prvni_polovina p {
+    padding: 0px 20px 15px 25px;
+}
+
+.prvni_polovina li {
+    padding: 0px 20px 10px 5px;
+}
+
+.druha_polovina p {
+    padding: 20px 0px 20px 25px;
+}
